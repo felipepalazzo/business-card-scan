@@ -1,0 +1,19 @@
+{
+  "name": "bc-reader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "scan": "npm run build && node dist/index.js"
+  },
+  "dependencies": {
+    "@azure/ai-form-recognizer": "^5.0.0",
+    "@azure/identity": "^3.3.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  }
+}
